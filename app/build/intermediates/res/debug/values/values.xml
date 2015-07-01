@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="exercise_array">
+        <item>Ławka sztanga</item>
+        <item>Ławka sztanga suwnica</item>
+        <item>Rozpiętki</item>
+        <item>Maszyna góra</item>
+        <item>Ławka sztanga</item>
+        <item>Ławka sztanga suwnica</item>
+        <item>Rozpiętki</item>
+        <item>Maszyna góra</item>
+        <item>Ławka sztanga</item>
+        <item>Ławka sztanga suwnica</item>
+        <item>Rozpiętki</item>
+        <item>Maszyna góra</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="list_item_history_header_background">#33B5E5</color>
+    <declare-styleable name="StickyListHeadersListView"><attr name="android:clipToPadding"/><attr name="android:scrollbars"/><attr name="android:overScrollMode"/><attr name="android:padding"/><attr name="android:paddingLeft"/><attr name="android:paddingTop"/><attr name="android:paddingRight"/><attr name="android:paddingBottom"/><attr name="android:fadingEdgeLength"/><attr name="android:requiresFadingEdge"/><attr name="android:cacheColorHint"/><attr name="android:choiceMode"/><attr name="android:drawSelectorOnTop"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:listSelector"/><attr name="android:scrollingCache"/><attr name="android:scrollbarStyle"/><attr name="android:divider"/><attr name="android:dividerHeight"/><attr name="android:transcriptMode"/><attr format="boolean" name="hasStickyHeaders"/><attr format="boolean" name="isDrawingListUnderStickyHeader"/></declare-styleable>
+    <!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_add_training">Nowe ćwiczenie</string>
+    <string name="action_confirm_edit">Zakończ edycje</string>
+    <string name="action_exit_exercise">Zapisz plan treningowy</string>
+    <string name="action_exit_list_of_exercise_dialog">Zakończyć ustalanie planu treningowego?</string>
+    <string name="action_exit_training">Zakończ trening</string>
+    <string name="action_exit_training_dialog">Jesteś pewien, że chcesz zakonczyć dzisiejszy traning?</string>
+    <string name="action_info_training">Wyświetl statystyki</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="app_name">Siłownia</string>
+    <string name="dialog_new_training_add_hint">Nazwa ćwiczenia</string>
+    <string name="dialog_new_training_add_title">Dodaj nowe ćwiczenie</string>
+    <string name="dialog_new_training_finish_add_exercise">Dodaj nowe ćwiczenie</string>
+    <string name="dialog_new_training_finish_finish_training">Zakończ trening</string>
+    <string name="dialog_new_training_finish_title">Wszystkie zaplanowane ćwiczenia zostały wykonane. Chcesz dodać nowe ćwiczenie czy zakończyć trening?</string>
+    <string name="exercise_confirm">Zakończ ćwiczenie</string>
+    <string name="exercise_minus">-</string>
+    <string name="exercise_plus">+</string>
+    <string name="exercise_repetition">Powt.</string>
+    <string name="exercise_serie">Dodaj serie</string>
+    <string name="exercise_weight">Waga</string>
+    <string name="find_seletected_exercise_button">Znajdź ćwiczenia przypisane do planu treningowego</string>
+    <string name="find_seletected_exercise_textview">Wybierz ćwiczenia (lub dodaj nowe) do planu treningowego</string>
+    <string name="history_of_training">Historia treningów</string>
+    <string name="last_training">Ostatni trening</string>
+    <string name="list_of_exercise">Plan treningowy</string>
+    <string name="new_training">Nowy trening</string>
+    <string name="resume_training">Kontynuuj trening</string>
+    <string name="welcome_text">Witaj na siłowni Szybki!!!</string>
+    <!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

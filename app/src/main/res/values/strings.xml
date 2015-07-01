@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Siłownia</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_exit_training">Zakończ trening</string>
+    <string name="action_info_training">Wyświetl statystyki</string>
+    <string name="action_add_training">Nowe ćwiczenie</string>
+    <string name="action_confirm_edit">Zakończ edycje</string>
+    <string name="action_exit_exercise">Zapisz plan treningowy</string>
+    <string name="action_exit_list_of_exercise_dialog">Zakończyć ustalanie planu treningowego?</string>
+    <string name="welcome_text">Witaj na siłowni Szybki!!!</string>
+    <string name="new_training">Nowy trening</string>
+    <string name="resume_training">Kontynuuj trening</string>
+    <string name="last_training">Ostatni trening</string>
+    <string name="history_of_training">Historia treningów</string>
+    <string name="list_of_exercise">Plan treningowy</string>
+    <string name="exercise_weight">Waga</string>
+    <string name="exercise_repetition">Powt.</string>
+    <string name="exercise_confirm">Zakończ ćwiczenie</string>
+    <string name="exercise_serie">Dodaj serie</string>
+    <string name="action_exit_training_dialog">Jesteś pewien, że chcesz zakonczyć dzisiejszy traning?</string>
+    <string name="dialog_new_training_add_title">Dodaj nowe ćwiczenie</string>
+    <string name="dialog_new_training_add_hint">Nazwa ćwiczenia</string>
+    <string name="dialog_new_training_finish_title">Wszystkie zaplanowane ćwiczenia zostały wykonane. Chcesz dodać nowe ćwiczenie czy zakończyć trening?</string>
+    <string name="dialog_new_training_finish_add_exercise">Dodaj nowe ćwiczenie</string>
+    <string name="dialog_new_training_finish_finish_training">Zakończ trening</string>
+    <string name="find_seletected_exercise_button">Znajdź ćwiczenia przypisane do planu treningowego</string>
+	<string name="find_seletected_exercise_textview">Wybierz ćwiczenia (lub dodaj nowe) do planu treningowego</string>
+    <string name="exercise_minus">-</string>
+    <string name="exercise_plus">+</string>
+    <string-array name="exercise_array">
+        <item>Ławka sztanga</item>
+        <item>Ławka sztanga suwnica</item>
+        <item>Rozpiętki</item>
+        <item>Maszyna góra</item>
+        <item>Ławka sztanga</item>
+        <item>Ławka sztanga suwnica</item>
+        <item>Rozpiętki</item>
+        <item>Maszyna góra</item>
+        <item>Ławka sztanga</item>
+        <item>Ławka sztanga suwnica</item>
+        <item>Rozpiętki</item>
+        <item>Maszyna góra</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/android:list"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <fragment
+        android:id="@+id/new_training_fragment"
+        android:name="com.app.silownia.fragments.NewTrainingFragment"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2" />
+    
+    <fragment
+        android:id="@+id/series_stats_fragment"
+        android:name="com.app.silownia.fragments.SeriesStatsFragment"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+    
+    <fragment
+        android:id="@+id/last_stats_fragment"
+        android:name="com.app.silownia.fragments.LastStatsFragment"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+    
+    <!-- <fragment
+        android:id="@+id/best_stats_fragment"
+        android:name="com.app.silownia.BestStatsFragment"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" /> -->
+
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/layout/activity_new_training.xml -->

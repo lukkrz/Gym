@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/welcome_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/welcome_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/new_training_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_textview"
+        android:text="@string/new_training" />
+
+    <Button
+        android:id="@+id/last_training_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_training_button"
+        android:enabled="false"
+        android:text="@string/last_training" />
+
+    <Button
+        android:id="@+id/history_of_training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_training_button"
+        android:text="@string/history_of_training" />
+
+    <Button
+        android:id="@+id/list_of_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_of_training"
+        android:text="@string/list_of_exercise" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Łukasz/AndroidStudioProjects/Silownia/app/src/main/res/layout/fragment_main.xml -->
